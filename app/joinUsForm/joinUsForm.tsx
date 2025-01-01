@@ -71,7 +71,7 @@ const JoinUsForm = () => {
         setIsSubmitting(true);
 
         try {
-            const response = await fetch("/api/register", {
+            const response = await fetch("/api/joinUsForm", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",
